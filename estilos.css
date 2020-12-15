@@ -1,3 +1,130 @@
 body {
-  border: 1px solid red;
+  background: hsl(230, 17%, 14%);
+  color: white;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+h1 {
+  font-size: 32px;
+  margin: 30px 0 10px;
+}
+h4 {
+  margin: 0 0 50px 0;
+  color: hsl(230, 22%, 74%);
+}
+h3 {
+  color: hsl(230, 22%, 74%);
+  font-weight: 400;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+.total-followers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.total-followers-box {
+  width: 255px;
+  height: 240px;
+  background: hsl(229, 23%, 27%);
+}
+.page-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.total-followers-box-day {
+  display: flex;
+}
+.number-of-followers {
+  font-size: 70px;
+  margin: 0 auto;
+  font-weight: 700;
+  width: 175px;
+}
+.number-of-followers-1 {
+  font-size: 70px;
+  margin: 0 auto;
+  font-weight: 700;
+  width: 115px;
+}
+.followers-text {
+  text-transform: uppercase;
+  margin: 10px auto;
+  width: 155px;
+  letter-spacing: 5px;
+  font-size: 18px;
+  color: hsl(230, 22%, 74%);
+}
+.total-followers-box-day {
+  margin: 0 auto;
+  width: 100px;
+  gap: 5px;
+  color: hsl(163, 72%, 41%);
+}
+.facebook {
+  border-top: 8px solid hsl(208, 92%, 53%);
+  border-radius: 8px 8px 0 0;
+}
+.twitter {
+  border-top: 8px solid hsl(203, 89%, 53%) ;
+  border-radius: 8px 8px 0 0;
+}
+.instagram {
+  border-top: 8px solid hsl(37, 97%, 70%) ;
+  border-radius: 8px 8px 0 0;
+}
+.youtube {
+  border-top: 8px solid hsl(348, 97%, 39%);
+  border-radius: 8px 8px 0 0;
+}
+.social-media-container-today {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.social-media-today {
+  display: flex;
+  width: 255px;
+  align-items: center;
+  justify-content: center;
+  background: hsl(229, 23%, 27%);
+  border-radius: 5px;
+  height: 130px;
+}
+.margin-box {
+  margin: auto;
+}
+.margin-box-1 {
+  margin: 20px auto auto;
+}
+.overview-title {
+  margin: 50px 0 30px;
+}
+.number {
+  font-size: 30px;
+  font-weight: 700;
+}
+.p {
+  color: hsl(230, 22%, 74%);
+}
+.box-p{
+  margin-top: 32px;
+  color: hsl(163, 72%, 41%);
+}
+.box-p::before {
+  content: '+';
+}
+.box-p1 {
+  margin-top: 32px;
+  color: hsl(356, 69%, 56%);
+}
+.box-p1::before {
+  content: '-';
+}
+.before::before {
+  content: '+';
 }
